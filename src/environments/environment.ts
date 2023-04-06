@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherApiBaseUrl: 'https://api.openweathermap.org/data/2.5/',
+  // XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
+  // XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
+  // XRapidAPIHostHeaderValue: 'foreca-weather.p.rapidapi.com',
+  // XRapidAPIKeyHeaderValue: '8a3868a56dmsh276d5080b3fc35fp1b7a8fjsn77b0223a0241',
+
+  API_KEY: '31e2ddf711379db181f70f35b502bf61',
+  unit:'metric'
 };
 
 /*

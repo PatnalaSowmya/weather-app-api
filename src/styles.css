@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #bb575769;
+    
+}
+.container{
+    width: 400px;
+    height: 80vh;
+    box-shadow: 10px 10px 10px #a28c8c ;
+    background-color: #bc8787;
+    border-radius: 20px;
+}
+.upper-data{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.upper-data img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+
+.weather_data{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+}
+.city{
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+}
+.temparature{
+    font-size: 40px;
+    color:#ffffff;
+    text-align: center;
+    font-weight: 900;
+}
+.lower-data{
+    font-size: 14px;
+    padding: 15px;
+}
+.lower_container {
+    width: 100%;
+    height: 220px;
+    background-color:#d8afaf;
+
+    /* margin: 10px 0; */
+    margin-top: 10px;
+    border-radius: 10px;
+    /* margin-bottom: 282px; */
+}
+.one{
+    display: flex;
+}
+
+.lower_container img{
+    width: 28%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.min_tem,.max_tem{
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    text-align: center;
+    width: 185px;
+}
+
+#label{
+    font-size: 12px;
+}
+#value{
+    font-weight: 900;
+}
